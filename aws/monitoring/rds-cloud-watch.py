@@ -5,6 +5,8 @@
 
 # Set access and secret keys to ~/.aws/credentials 
 # Set region of RDS to ~/.aws/config
+# Run python rds-cloud-watch.py rds-instance-name metric:
+# python rds-cloud-watch.py testinstance CPUUtilization
 
 import sys
 import boto3
